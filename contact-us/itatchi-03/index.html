@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Working Contact Form Using HTML, CSS, PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-titel">
+        <h1>Say Hello</h1>
+        <h2>We are always ready to serve you!</h2>
+    </div>
+    <div class="contact-form">
+        <form action="contact-form" method="post" action="store.php">
+            <input type="username" name="username" class="form-control" placeholder="User Name" required>
+            <br>
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            <br>
+            <textarea name="message" class="form-control" placeholder="Message" id="form-control" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="Send a Message" required>
+        </form>
+    </div>
+</body>
+</html>
